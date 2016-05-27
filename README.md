@@ -9,3 +9,11 @@ tmr.alarm(1,5000,0,function() print(localTime.hour) end) -- need to give it a bi
 
 inspired by this post:
 http://thearduinoguy.org/using-an-esp8266-as-a-time-source-part-2/
+
+there's also this:
+http://www.esp8266.com/viewtopic.php?p=8733
+
+but this one is the best:
+https://github.com/wogum/esp01/blob/master/ntp.lua
+
+which is where I got the npt.lua file from
