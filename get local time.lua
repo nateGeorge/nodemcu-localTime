@@ -57,6 +57,9 @@ conn:on("receive", function(conn, payload)
     localTime.hour = hour
     localTime.minute = minute
     localTime.second = second
+    localTime.us = 0 -- not quite exactly right but oh well
+    timeAtSync = tmr.now() -- keep track of device time
+    -- so we don't have to sync so often
 end)
 t = tmr.now()    
 conn:connect(80,'google.com')
