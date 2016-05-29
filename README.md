@@ -16,4 +16,4 @@ http://www.esp8266.com/viewtopic.php?p=8733
 but this one is the best:
 https://github.com/wogum/esp01/blob/master/ntp.lua
 
-which is where I got the npt.lua file from
+which is where I got the ntp.lua file from
